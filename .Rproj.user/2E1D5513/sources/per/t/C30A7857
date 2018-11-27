@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543274614666.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4099476688",
+    "id" : "C30A7857",
+    "lastKnownWriteTime" : 1543276116,
+    "last_content_update" : 1543276116375,
+    "path" : "~/Dropbox/2018 A 4 Data analyses using R/Data-analyses-in-R-scripts/play.script.R",
+    "project_path" : "play.script.R",
+    "properties" : {
+        "cursorPosition" : "32,18",
+        "scrollLine" : "21",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

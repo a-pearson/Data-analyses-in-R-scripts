@@ -36,11 +36,16 @@ str(t.vector)
 length(t.vector)
 
 # matrix is .. a matrix. Needs to have multiple columns and rows
+?matrix
 (t.matrix <- matrix(c(4,4,3,3), 2, 2))
+str(t.matrix)
 # aaah first fills the columns
 # let's give the columns names
 colnames(t.matrix) <- c("fours", "threes")
 t.matrix    # much better
+# let's replace first row, second column
+t.matrix[1,2] <- NA
+
 
 # the workhorse of objects in R is the dataframe.
 # columns can have different data types. Wicked
@@ -50,6 +55,11 @@ t.char <- c("blue", "red", "blue", "blue", "purple", "red")
 
 t.data.frame <- cbind.data.frame(t.char, t.vector)
 str(t.data.frame)
+t.data.frame$t.char
+t.char
+
+t.data.frame$t.char <- as.character(t.data.frame$t.char)
+# let's change t.char column to character data type
 
 
 #-------------------------------------------------------------------------------
@@ -118,4 +128,4 @@ write.csv(t.data.frame, paste(path.data.output,"files.csv", sep =""),
 t.name.file <- list.files(path.data)
 t.file.from.data <- read.csv(t.name.file, stringsAsFactors = FALSE)
 t.file.from.data
-str(t.file.from.data)  
+str(t.file.from.data)
