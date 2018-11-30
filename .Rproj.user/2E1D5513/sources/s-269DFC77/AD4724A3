@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543526876734.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AD4724A3",
+    "lastKnownWriteTime" : 1543552811,
+    "last_content_update" : 1543552811080,
+    "path" : "~/Dropbox/2018 A 4 Data analyses using R/Data-analyses-in-R-scripts/loops and functions.R",
+    "project_path" : "loops and functions.R",
+    "properties" : {
+        "cursorPosition" : "19,53",
+        "scrollLine" : "15",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
