@@ -1,5 +1,5 @@
 #
-# for loop example
+# for() loop example
 #
 
 # a simple example 
@@ -61,3 +61,5 @@ for(i in 1:ncol(d)){
 getwd()  # path to working directory, just to check
 # write an R objetc as .csv file
 write.csv(sum.stored,"whateverman.csv")
+
+
