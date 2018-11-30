@@ -33,11 +33,18 @@ list.files()
 # load the data
 bird <- read.csv("BirdWindowCrash.csv", stringsAsFactors = FALSE)
 str(bird)
+# summarise the data into different groups
+# and save as a data frame
+t <- table(bird)
+str(t) # tables are hard to work with
 data.birds <- data.frame(table(bird))
+str(data.birds)
+# don't like column names, rename using colnames()
 colnames(data.birds) <- c("angle", "observed")
-data.birds$expected <- rep( sum(data.birds$observed) / 
-                              length(data.birds$observed), 
-                            length(data.birds$observed))
+# add a new column for the expected values
+data.birds$expected <- sum(data.birds$observed) / 
+                              nrow(data.birds)
+# calculate thew Chisq value
 data.birds$calc <- (data.birds$observed - data.birds$expected)^2 /
   data.birds$expected
 # get the Chi scuare by taking sum of the calc column
@@ -47,7 +54,7 @@ data.birds$calc <- (data.birds$observed - data.birds$expected)^2 /
 # g
 chisq.test(data.birds$observed)
 
-
+?chisq.test
 
 # 9 snapdragon
 # d
@@ -58,6 +65,8 @@ small <- c(10, 21, 9)
 names(small) <- names # add names to the vector
 small.exp <- c(10,20,10)# expected frequencies
 small.exp.prob <- small.exp/sum(small.exp)# turn expected in probabilities
+# let's chekc if it is 1, if not, throw warning 
+if(sum(small.exp.prob) != 1) print("NOT 1! STOP")
 # perform Chi^2 test
 chisq.test(small, p = small.exp.prob)
 # far from significant....
