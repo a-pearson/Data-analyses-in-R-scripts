@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543958497305.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2B604AFB",
+    "lastKnownWriteTime" : 1543978098,
+    "last_content_update" : 1543978098589,
+    "path" : "~/Dropbox/2018 A 4 Data analyses using R/Data-analyses-in-R-scripts/correlation.regression.R",
+    "project_path" : "correlation.regression.R",
+    "properties" : {
+        "cursorPosition" : "41,18",
+        "scrollLine" : "36",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

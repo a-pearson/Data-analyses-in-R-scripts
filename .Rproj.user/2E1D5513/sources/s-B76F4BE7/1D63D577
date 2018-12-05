@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "937809548",
     "id" : "1D63D577",
-    "lastKnownWriteTime" : 1543264496,
-    "last_content_update" : 1543264496,
+    "lastKnownWriteTime" : 1543968177,
+    "last_content_update" : 1543968177153,
     "path" : "~/Dropbox/2018 A 4 Data analyses using R/Data-analyses-in-R-scripts/main.R",
     "project_path" : "main.R",
     "properties" : {
-        "cursorPosition" : "5,16",
-        "scrollLine" : "0"
+        "cursorPosition" : "51,4",
+        "scrollLine" : "49"
     },
     "relative_order" : 1,
     "source_on_save" : false,

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543907931813.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5F0778EB",
+    "lastKnownWriteTime" : 1543909350,
+    "last_content_update" : 1543909350868,
+    "path" : "~/Dropbox/2018 A 4 Data analyses using R/Data-analyses-in-R-scripts/weather.R",
+    "project_path" : "weather.R",
+    "properties" : {
+        "cursorPosition" : "30,0",
+        "scrollLine" : "22",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -40,7 +40,7 @@ library(nlme)
 # === folder management ===
 # names of folders for output data (figures,data output,data)
 # store names of the folders in an object
-output.folder.names <- c("figures", "data output", "data")
+output.folder.names <- c("figures", "data.output", "data")
 # and make the folders if they don't exit yet. No need to understand this now
 for(i in 1:length(output.folder.names)) 
   if(file.exists(output.folder.names[i]) == FALSE) 
@@ -52,6 +52,10 @@ for(i in 1:length(output.folder.names))
 path.figures <- paste(working.dir, "/", output.folder.names[1], "/", sep = "")
 path.data.output <- paste(working.dir, "/", output.folder.names[2], "/", 
                           sep = "")
+#test saving file to output folder
+write.csv(output.folder.names, paste(path.data.output, "uselessnames.csv"),
+          row.names = FALSE)
+
 path.data <- paste(working.dir, "/", output.folder.names[3], "/", sep = "")
 
 # === ready to play! ====
